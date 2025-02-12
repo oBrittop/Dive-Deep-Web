@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --corluz:#1FBFBF;
+    --corpernumbra:#1BAFBF;
+    --corbatil:#1B8CA6;
+    --corabisaal: #186B8C;
+    --corhadal: #1A4979;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    color: white;
+    text-align: center;
+    font-family: "Bebas Neue";
+}
+h2{
+    font-family: "Roboto";
+
+}
+
+p { 
+    font-family: "Roboto";
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+    #navegador{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100px;
+        height: 100vh;
+    }
+
+    #subdivisao {
+        width: 65%;
+        margin-left: 100px;
+    }
+
+        #especies {
+            display:flex;
+            justify-content:space-between;    
+            color: white;
+            outline: 1px solid white;
+            margin-top: 10px;
+        }
+
+            .especie{
+                width: 30%;
+                padding: 10px;
+                text-align: justify;
+            }
+
+                .imgs img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: contain;
+                }
+
+        #curiosidades{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
+            .curiosidade{
+                margin-top: 20px;
+                width: 45%;
+                color: white;
+                border: 2px;
+                border: 1px solid white;
+                padding: 10px;
+                text-align: justify;
+            }
+
+    #metros{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        color: white;
+        width: 22%;
+        text-align: justify;
+        border: 1px solid white;
+        padding: 10px;
+    }
+
+    #metros p {
+        padding-top: 10px;
+    }
+
+

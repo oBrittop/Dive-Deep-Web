@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    background-color: aqua;
+}
+
+a{
+    display: flex;
+    height: 15vh;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;  
+}
+
+a,a:visited{
+    color: white;
+    font: 1.3em "Bebas Neue";
+    text-decoration: none;
+    text-align: center;
+}
+
+a:hover{
+    text-shadow: rgba(0, 0, 0, 0.288) 2px 3px;transition: 0.5s ease-in-out;
+}
+
+#inicio{
+    background-image:linear-gradient(#f8b563, #fce789);
+    font-size: 2.5em;
+    line-height: 1em;
+    height: 25vh;
+    color: #1A4979;
+}
+
+#luz{
+    background-color: #1FBFBF;
+}
+
+#crepusculo{
+    background-color: #1BAFBF;
+}
+
+#batial{
+    background-color: #1B8CA6;
+}
+
+#abissal{
+    background-color: #186B8C;
+}
+
+#hadal{
+    background-color: #1A4979;
+}
